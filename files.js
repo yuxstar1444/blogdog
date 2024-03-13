@@ -40,7 +40,7 @@ if(!fs.existsSync('./assets')){ //check if exists
     });
 }
 
-//delete files
+//delete files //test
 
 if (fs.existsSync('./docs/deleteme.txt')){
     fs.unlink('./docs/deleteme.txt', (err) => {
